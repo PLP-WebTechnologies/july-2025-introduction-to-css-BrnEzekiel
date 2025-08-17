@@ -1,0 +1,104 @@
+  /* CSS stylesheet to style the webpage */
+
+            /* This is the styling for the body tag in my index file */
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                background: linear-gradient(rgba(6, 79, 175, 0.719), rgba(12, 5, 9, 0.897)), url('https://images.pexels.com/photos/3466163/pexels-photo-3466163.jpeg') no-repeat center center fixed;
+                background-size: cover;
+                
+            }
+
+            /* styling up my header */
+            header {
+                background-color: #007bff;
+                color: #fff;
+                padding: 10px 0;
+                text-align: left;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 15px;
+                text-indent: 10px;
+            }
+
+            /* styling up the navigation bar */
+            nav {
+                background-color: #333;
+                color: #fff;
+                padding: 10px 0;
+                text-align: left;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                margin: 0;
+            }
+
+            /* styles for the unordered list */
+            nav ul {
+                list-style: square;
+                padding: 0;
+            }
+
+            /* styles for the nested list item in the unordered list */
+            nav ul li {
+                display: inline-block;
+                list-style: square;
+                margin-right: 0px;
+                cursor: pointer;
+            }
+
+            /* styling the anchor tag */
+            nav ul li a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            /* all styles for the main content area */
+            main {
+                padding: 20px;
+                color: #ffffff;
+                text-align: left;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 15px;
+            }
+
+            /* styles for the headings in the main content area */
+            main h1, main h2 {
+                color: #ffffff71;
+                text-decoration: underline;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            /* styles for the paragraphs in the main content area */
+            main p {
+                color: #ffffff;
+                font-size: 15px;
+                margin-bottom: 10px;
+            }
+
+            /* styles for the images in the header */
+           header img {
+                
+                height: 100px;
+                width: 100px;
+                float: left;
+                padding-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            /* styles for the footer */
+            footer {
+                background-color: #183183;
+                color: #fff;
+                text-align: center;
+                padding: 5px 0;
+                position: relative;
+                bottom: 0;
+                width: 100%;
+            }
+            section h3 {
+                color: #795ef0ee;
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+        
